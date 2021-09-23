@@ -1,0 +1,31 @@
+package day26_SaturdayReviewMethodWeek;
+
+public class RevirseAndPlindrom {
+
+	public static void main(String[] args) {
+		 
+
+		
+		
+		
+		
+		
+		
+//	public static String Reverse(String str) { 
+	String str="wellcome";
+		String str1="";
+	for (int i=str.length()-1;i>=0;i--) {
+		str1 =str;
+	}
+		
+	System.out.println(str1);	
+		
+		
+	//	return reverse;
+	} 
+	
+	 	
+		
+	}
+
+ 

@@ -1,0 +1,36 @@
+package day26_SaturdayReviewMethodWeek;
+
+public class TasksMethod {
+
+	public static void main(String[] args) {
+		int  num1[]= {1,20,3,4};
+		FindMax(num1);
+		System.out.println(FindMax(num1)); 
+	}
+
+		public static int FindMax(int num1[]) {
+			
+		int mini=0;
+			for(int dina:num1) {
+	 		if(dina<mini) {
+	 			mini =dina;
+	 		}}
+			return mini ;
+			 
+		}
+		
+		
+
+	} 
+
+	
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+ 

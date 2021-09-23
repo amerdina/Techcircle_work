@@ -1,0 +1,26 @@
+package day26_SaturdayReviewMethodWeek;
+
+public class CheckIfVoweLisPresentInString {
+/*Java program to check if a vowel is present in the String
+ * */
+	
+public static void main(String[] args) {
+	 String str="Welcome java";
+	 String vowel="aioue";
+	 boolean trust=false;
+	 char ch='s';
+for(int i=0;i<=str.length();i++) {
+	char eachChar=str.charAt(i);
+	if (vowel.contains(Character.toString(eachChar))) {
+		trust=true;
+		 
+		  
+	}
+}	 
+System.out.println(trust); 
+ 
+}
+	 
+}
+
+ 

@@ -1,0 +1,38 @@
+package day28_encapsulation;
+
+public class Circle {
+//instance variable//
+	//radius,diamater,area,perimeter
+	
+	double radius;
+	double diamater;
+	double area;
+	double perimeter;
+	double PI=3.14;
+	
+	
+	
+	
+	public Circle(double radius) {
+		 
+		this.radius = radius;
+		this.diamater = radius*2;
+		this.area=calculatorArea(radius);
+	}
+	
+	
+	public double calculatorArea(double radius) {
+		 return radius * radius * PI;
+		 
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

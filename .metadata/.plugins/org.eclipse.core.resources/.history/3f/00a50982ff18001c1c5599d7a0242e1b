@@ -1,0 +1,23 @@
+package day26_SaterdayReview;
+
+import java.util.ArrayList;
+
+public class UniqurFromArrayMethod {
+
+	public static void main(String[] args) {
+/*/1/create a method that can print out the maximum number from any given integer array
+/2/create a function that can print out the minimum number from any given integer array
+3/create a function that can print the unique elements from the array
+
+ 		 
+
+	ArrayList<Integer>list=new ArrayList<>();
+	ArrayList<Integer>unique=new ArrayList<>(); 
+		
+		
+		
+		
+		
+	}
+
+}

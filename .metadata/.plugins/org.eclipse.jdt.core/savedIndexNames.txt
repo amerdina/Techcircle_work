@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\amerd\eclipse-workspace\com.techcircle.bach8-java\.metadata\.plugins\org.eclipse.jdt.core
+24579111.index
+1210658807.index

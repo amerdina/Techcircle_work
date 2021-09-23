@@ -1,0 +1,76 @@
+package day_25MethodParamsAndMethodOverLoading;
+
+public class tst2method {
+ 
+	public static void main(String[] args) {
+   /*1. create a function that can check if the given integer is positive, negative or zero
+    * */			
+		 
+ 		System.out.println(check(-9));
+		
+		
+	}	
+ 			
+  public static String check(int p)  {
+	 
+ 	 String msg="";
+ 
+ 	 if (p>0) {
+ 		msg="positive"  ;
+ 		}else if (p<0) {
+ 		msg="negative"  ;
+ 		}
+ 		else if (p==0) {
+ 		msg="zero"  ;
+ 		}
+ 	else {
+ 		msg="invalid";
+ 	}
+ 	 
+ 	
+ 	
+ 	return  msg;
+				}
+  
+  
+		}  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	  
+ 	 

@@ -1,0 +1,30 @@
+package day26_SaterdayReview;
+
+public class FindThirdVowelLetterWithCountTaskQuency {
+
+	public static void main(String[] args) {
+/*//Find the third vowel in the string and how many times this vowel occurs
+	//Finding the third vowel: e
+	//How many times does the third vowel occur in the string 
+	//4 times**/
+ 
+	String str="Wellcom to Techcircle";
+	String vowels="aioue";
+	int vowelcount=0;
+	char thirdvowel='a';
+	for (int i=0;i<str.length();i++) {
+		char eachChar=str.charAt(i);
+		System.out.println(str.charAt(i));
+ 
+	if (vowels.contains(Character.toString(eachChar)))
+	{ vowelcount++;
+	 	            
+	 
+	System.out.println("vowelcount ="+ vowelcount );
+	 
+   if(vowelcount==3) {
+   System.out.println("i found third vowel"+eachChar);
+   thirdvowel=eachChar;
+}}}
+ 
+ }}

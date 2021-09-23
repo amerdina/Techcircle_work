@@ -1,0 +1,42 @@
+package day22_myArayListWithIrfan;
+
+import java.util.ArrayList;
+
+public class ArrayListTaskWithIrfanInClass {
+
+	public static void main(String[] args) {
+		ArrayList<String>names=new ArrayList<>(); 
+		char A='a';
+		 
+		names.add("Darima");
+		names.add("opal");
+		names.add("Dina");
+		names.add("zamira");
+		names.add("Ariuna");
+		names.add("Erkin");
+		names.add("Qasir");
+		names.add("Famira");
+		names.add("Mergen");
+		names.add("Pedro");
+		names.add("Ellira");
+		
+		//for(int i=0;i<names.size() ;i++) {
+			
+		for(String dina:names) {
+			 System.out.println(dina);
+//		if(names.charAt(names.size()-1)==A) {
+//				names.add(null)  
+//			 }
+//			 
+//		}
+//		 System.out.println();
+		
+		
+		
+		
+		}	
+		
+		
+	}
+
+}

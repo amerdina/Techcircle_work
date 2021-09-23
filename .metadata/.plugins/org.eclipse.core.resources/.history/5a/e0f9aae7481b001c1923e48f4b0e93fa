@@ -1,0 +1,39 @@
+package day27_classAndObject;
+
+public class StudentObject {
+
+	public static void main(String[] args) {
+		Student  student1=new Student();
+		John.name="John";
+		John.age=12;
+		John.color="fair";
+		John.gender='M';
+		
+		John.eat();
+		John.sleep();
+		John.run();
+		
+		Student  student2=new Student();
+		student2.name="sophia";
+		student2.age=10;
+		student2.color="fair";
+		student2.gender='f';
+		
+		student2.eat();
+		student2.sleep();
+		student2.run();
+		
+		Student student3=new Student();
+		Lily.name="Lily";
+		Lily.age=11;
+		Lily.color="Dark";
+		Lily.gender='f';
+		
+		Lily.eat();
+		Lily.sleep();
+		Lily.run();
+		
+
+	}
+
+}

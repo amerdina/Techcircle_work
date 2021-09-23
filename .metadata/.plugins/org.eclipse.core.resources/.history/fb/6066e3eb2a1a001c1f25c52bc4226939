@@ -1,0 +1,35 @@
+package day26_SaturdayReviewMethodWeek;
+
+public class MethodAddArrayAndGetSum {
+
+	public static void main(String[] args) {
+/*Sum of all elements in integer array?
+//	It's a very simple program. We can use for loop to iterate over the array elements and add them to get the final sum.
+		
+ * */ int sum=0;
+	int num[]= {1,2,3,4,5};
+	for (int i=0;i<num.length ;i++) {
+		System.out.print  (num[i]);
+ 
+	sum+=num[i];	
+	 
+	}
+		
+	System.out.println("sum=" + sum);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}}	
+		 
+  

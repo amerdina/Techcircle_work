@@ -1,0 +1,93 @@
+package day_25MethodParamsAndMethodOverLoading;
+
+ public class tst {
+//
+//	 
+//		 
+////	1. create a function that can check if the given integer is positive,
+//		//negative or zero
+//	public static void main(String[] args) {	
+//	
+//		System.out.println(withoutDuplicate(String str ));
+//		
+//	}
+////		int num1=40;
+//	
+//		positive(num1 );
+//  		negative( num1);
+//  		equlition(num1); 
+//	
+//	}
+//	public static void positive(int num1 ) {
+//		if (num1>0	) {
+//			System.out.println("it is positive") ;
+//		}	
+//	}
+//		public static void negative(int num1 ) {
+//			if (num1<0	) {
+//				System.out.println("it is negative");
+//			}		
+//		}
+//			public static void equlition(int num1 ) {
+//				if (num1==0	) {
+//					System.out.println("it is zero");
+//				}}		
+		//	/4. create a function that can print a string without the duplicated characters
+			//"aaabbbccc"
+			//abc
+			
+			
+			
+			
+			
+
+//	public static String  withoutDuplicate(String str ) {
+//  String uniquechar="";
+//				for (int i=0;i>str.length();i++) {
+//					String currentChar=Character.toString(str.charAt(i));
+//					if (!uniquechar .contains(currentChar) );
+//					uniquechar += currentChar;
+//				}
+//			}
+//			return uniquechar;
+//				}
+//				
+////	5.  write a method that can print out the full name of a person in regular format
+//    ex:
+//        fullName("teChCirCle", "SCHOOL");
+//        	output:
+//        		"Techcircle School"
+//        			}
+////}
+ 
+//public static int subtraction(int a,int b) {
+//	 
+//	int result=a-b;
+//		
+//	return result;	
+//	}
+//
+//
+//public static int multiplication(int a,int b) {
+//	 
+//	int result =a*b;
+//		
+//	return result ;	
+//	}
+	 
+	public static String Ac1() {
+	String pass="pass";
+		
+		return pass;
+	} 
+	public static String Ac2() {
+		String pass="pass";
+			
+			return pass;
+		}  
+	
+	
+}
+
+
+	

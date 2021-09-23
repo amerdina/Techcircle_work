@@ -1,0 +1,76 @@
+package day_25MethodParamsAndMethodOverLoading;
+
+public class tst2method {
+ 
+	public static void main(String[] args) {
+		
+  		 if (passwordValidation(ASdf12!@ )){
+  			 System.out.println("weeelll");}
+  		 }
+  		//if (passwordValidation("assword@1")) {
+//System.out.println("Here is your new account.");
+// 				
+// 			}
+ 			
+ public static boolean passwordValidation(String passwardd ) {
+	
+	Boolean hasDigit = false;
+	Boolean hasUpperCase = false;
+	Boolean hasLowerCase = false;
+	Boolean symbol = false;
+	boolean isValidPassword = false;
+	
+	if (passwardd.length()>7){
+		for(int i=0;i<passwardd.length();i++) {
+			char ch= passwardd.charAt(i);
+		 
+			if(Character.isDigit(ch)) {
+				hasDigit = true;
+			}
+			if(Character.isUpperCase(ch)) {
+				hasUpperCase = true;
+			}
+			if(Character.isLowerCase(ch)) {
+				hasLowerCase = true;
+			}
+			 
+			if((!Character.isLowerCase(ch))&&(!Character.isUpperCase(ch))) {
+				symbol = true;
+			}}
+		if(hasDigit&&hasUpperCase &&hasLowerCase&&symbol)  {
+			System.out.println("welcom");
+			isValidPassword=true;
+		}else { 
+				System.out.println("invalid" );
+			}
+			
+		 
+	}else {
+		System.out.println("your passward should 7 characters");
+	} 
+	
+	 return isValidPassword  ;
+ 			
+	 
+	}}	 
+ 	//	public static void add2Num(int num1, int num2) {
+//		 
+//		}
+//		
+//		
+//		public static int add3Num(int num1, int num2,int num3) {
+//			//System.out.println(num1+num2);
+//			return num1 + num2 + num3;
+//		}
+		
+		
+		
+ 
+		
+		
+		
+		
+		
+		
+		
+ 

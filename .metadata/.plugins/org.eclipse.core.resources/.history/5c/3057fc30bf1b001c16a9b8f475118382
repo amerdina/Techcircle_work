@@ -1,0 +1,53 @@
+package day27_classAndObject;
+
+public class Dog{
+	String breed ;
+	String size ;
+	int age ;
+	String color;
+	
+	static int age1 ;
+	
+	// instance methods
+	
+	public Dog(){}//default constructor
+	
+	public void printInfo () {
+		
+	System.out.println("This dog breed"+breed+"size"+size+age+"years old"+color+"color");
+	}
+	
+	
+	
+public Dog (String breed , String size,int age,String color) {
+
+this.breed =breed ;//setting value to instance variable breed
+this.size = size;
+this.age = age;
+this.color =color ;	
+	
+	
+	
+	
+	
+}
+
+public void sleep() {
+	// TODO Auto-generated method stub
+	
+}
+
+public void eat() {
+	// TODO Auto-generated method stub
+	
+}
+
+public void run() {
+	// TODO Auto-generated method stub
+	
+}
+
+public void sit() {
+	// TODO Auto-generated method stub
+	
+}

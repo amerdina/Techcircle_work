@@ -1,0 +1,22 @@
+package day28_encapsulation;
+
+public class DataPerson {
+
+	public static void main(String[] args) {
+		 person P1=new person();
+		//
+		System.out.println(c.getUserName());
+		System.out.println(c.getPassward());
+		
+		c.setUserName("techcircle@techcirclesolutions.org");
+		c.getPassward("passward @b");
+		
+		System.out.println(c.getUserName());
+		System.out.println(c.getPassward());
+		
+	}
+
+
+	}
+
+}

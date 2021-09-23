@@ -1,0 +1,69 @@
+package day_25MethodParamsAndMethodOverLoading;
+
+public class tst2method {
+ 
+	public static void main(String[] args) {
+   			
+//System.out.println(getURL() );
+	 	getURL(); 
+	}
+//	String ss=getURL(); 
+//	System.out.println(ss);
+//	}
+ 			
+//  public static String getURL()  {
+//	 return "google.com";
+//	  
+//	   
+//				
+//			}
+  
+  public static void getURL()  {
+		  System.out.println("google.com"); 
+		  
+		   
+					
+				}
+  
+  
+		}  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	  
+ 	 

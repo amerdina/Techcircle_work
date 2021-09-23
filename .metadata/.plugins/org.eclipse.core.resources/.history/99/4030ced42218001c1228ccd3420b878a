@@ -1,0 +1,53 @@
+package day_25MethodParamsAndMethodOverLoading;
+
+public class ScoreWithMethod {
+
+/*2. create a function that can calculate the grade of the student
+//	3. create a function that can print out the combination of two integer arrays
+ * */	
+	
+	public static void main(String[] args) {
+		findscore(6);
+System.out.println(findscore(6));
+	}
+	
+	public static char findscore(int score ) {
+		//int score=80;
+	char ch='U';
+		if (score>=0 && score<=100) {
+		if(score>=89 && score<100) {
+			ch='A';
+		}else if(score>=79 && score<88) {
+			ch='B';
+		}else if(score>=69 && score<78) {
+			ch='C';
+		}else if (score>59 && score<68) {
+			ch='D';
+		}else {ch='f';
+		}
+		}else {System.out.println("invalid score");
+		}
+		return ch;
+	}}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+

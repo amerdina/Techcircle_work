@@ -1,0 +1,31 @@
+package day26_SaturdayReviewMethodWeek;
+
+public class TasksMethod {
+
+	public static void main(String[] args) {
+	
+		int max=0;
+		int  num1[]= {1,20,3,4};
+		for(int dina:num1) {
+	 		if(dina>max) {
+	 			max+=dina;
+	 		}}
+			System.out.println(max);
+			 
+		
+		
+		
+
+	}}
+
+	
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+ 

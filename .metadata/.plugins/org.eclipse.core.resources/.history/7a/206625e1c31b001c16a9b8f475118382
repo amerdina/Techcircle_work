@@ -1,0 +1,36 @@
+package day27_classAndObject;
+
+public class Dog {
+	//instance Variable
+	
+	
+    String breed;
+	String size;
+	int age;
+	String color;
+	
+	
+	
+	
+	
+	//instance Method
+	public void eat() {
+		System.out.println(breed+ " is eating ");
+	}
+public void run() {
+	System.out.println(breed+ " is running!");
+}
+//local variable
+int num=10;
+ 
+  
+public void sleep() {
+	System.out.println(breed+ " is sleeping!");
+}
+public void sit() {
+	System.out.println(breed+ " is sitting!");
+}
+}
+
+
+ 
